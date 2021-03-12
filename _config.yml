@@ -19,8 +19,8 @@ sass:
 permalink: /:title/
 
 # Rebellion Config
-#logo: /assets/logo-black.svg
-#logo_square: /assets/logo-square.svg
+logo: /assets/images/logo.jpeg
+logo_square: /assets/images/logo.jpeg
 #logo_light: /assets/logo-white.svg
 facebook: https://www.facebook.com/XRYouth
 twitter: https://twitter.com/NetworkXr
@@ -29,7 +29,7 @@ instagram: https://www.instagram.com/xryouth/
 donate: https://www.justgiving.com/crowdfunding/xry-uk
 join_us: /join-us/
 # $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple, $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
-brand_color: $xr-pink 
+brand_color: $xr-pink
 accent_color: $xr-dark-blue
 invert_brand_text: false
 invert_accent_text: true
