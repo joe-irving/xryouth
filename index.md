@@ -1,6 +1,6 @@
 ---
 layout: home
-top_image: /assets/demo/bright-bulb-close-up-1108572.jpg # Photo by Singkham from Pexels
+top_image: /assets/images/join-the-rebellion.jpg
 jump:
   text: Find out more
   target: about
