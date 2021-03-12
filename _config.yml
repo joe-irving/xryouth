@@ -19,7 +19,7 @@ sass:
 permalink: /:title/
 
 # Rebellion Config
-logo: /assets/images/logo.jpeg
+# logo: /assets/images/logo.jpeg
 logo_square: /assets/images/logo.jpeg
 #logo_light: /assets/logo-white.svg
 facebook: https://www.facebook.com/XRYouth
