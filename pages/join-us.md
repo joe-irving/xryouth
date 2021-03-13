@@ -2,7 +2,7 @@
 layout: page
 title: Join Us
 permalink: /join-us/
-top_image: /assets/images/join-us.jpg #Photo by Matthew T Rader from Pexels
+top_image: /assets/images/join-us.jpg
 order: 1
 ---
 
@@ -15,7 +15,6 @@ We need to create a new vision and direction for the movement, bring forth our d
 ## What we want to work towards creating
 
 At Extinction Rebellion Youth (XRY), we see ourselves as only one part of the larger climate justice youth movement and the movement of young people trying to create change across all different issues. This is our purpose and we want to work collaboratively with the larger movement to bring our vision to flourish.
-
 
 ## Empowering and aiding our generation to discover our own agency
 
@@ -31,9 +30,9 @@ Out with the old and in with the new, young people spend years of our lives in d
 
 We acknowledge we have young people from communities across the world who share common ground. We build connections of solidarity to aid the building of a global movement.
 
-
 > If you have come here to help me, you are wasting your time. But if you have come because your liberation is bound up with mine, then let us work together.
->- Lilla Watson
+>
+> * Lilla Watson
 
 ## Holding power to account
 
@@ -45,9 +44,9 @@ At this point in time we stand to lose everything from a combination of climate 
 
 We rebel against the dysfunctional and toxic system we live in, that causes pain and sorrow to the earth, animals and humans, through holding the reimaged image of the future.
 
-
 > You have to act as if it were possible to radically transform the world. And you have to do it all the time
->- Angela Davis
+>
+> * Angela Davis
 
 # Building grassroots community with a common cause
 
@@ -57,8 +56,7 @@ We work on finding what is uniting young people and base our future actions upon
 
 We need a new narrative to approach the global crisis and we think young people will be key in shaping the response.
 
-One of the strengths of the youth is to challenge what has been previously set, what is expected, outdated and overused. In this we challenge an older, more established voice that has overpowered and dictated us to a place of disaster, and in doing so has placed an immense burden on those who are inheriting this earth. We must move power into the hands of those who are most likely to undermine the systems that have brought us to this catastrophe,
-namely youth, in solidarity and collaboration with all other oppressed groups.
+One of the strengths of the youth is to challenge what has been previously set, what is expected, outdated and overused. In this we challenge an older, more established voice that has overpowered and dictated us to a place of disaster, and in doing so has placed an immense burden on those who are inheriting this earth. We must move power into the hands of those who are most likely to undermine the systems that have brought us to this catastrophe, namely youth, in solidarity and collaboration with all other oppressed groups.
 
 ## To create spaces for the expression and development of radical youth cultures
 
@@ -68,15 +66,14 @@ We need an explosion of youth culture. We need to reimagine society, through the
 
 We acknowledge that the climate crisis is a symptom of the toxic society which we live in. Our work is so much more than the climate. We don’t want a ‘sustainable’ version of a system that marginalises and exploit. We believe that young people are the key element in a creating a movement of movements around social justice which challenges the system of power we live in.
 
-
->We, pussy riot, went out to the square because we dreamed of a different history. Because the one in which the President turned into an emperor was not the one we desired. We were sick of lies. Of the unchanging, dismal lies broadcast on TV, the endless, groundless promises of a happy life
+> We, pussy riot, went out to the square because we dreamed of a different history. Because the one in which the President turned into an emperor was not the one we desired. We were sick of lies. Of the unchanging, dismal lies broadcast on TV, the endless, groundless promises of a happy life
 >
->A long and happy life
+> A long and happy life
 >
->Riot is always a thing of beauty. That's how I got interested. At school, I had this dream of becoming a graffiti artist and I practiced graffiti in my school notepad. If you start your school work on the first page and do your sketches in the back, sooner or later the two will meet in the middle.
+> Riot is always a thing of beauty. That's how I got interested. At school, I had this dream of becoming a graffiti artist and I practiced graffiti in my school notepad. If you start your school work on the first page and do your sketches in the back, sooner or later the two will meet in the middle.
 >
->And, next to your history notes, graffiti appears.
+> And, next to your history notes, graffiti appears.
 >
->Which turns history into a different story
+> Which turns history into a different story
 >
->- Maria Alyokhina
+> * Maria Alyokhina

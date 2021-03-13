@@ -1,0 +1,7 @@
+---
+
+layout: page
+
+---
+
+# A page

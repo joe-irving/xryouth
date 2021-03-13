@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
-order: 2
+title: News
+permalink: /news/
+order: 3
 ---
 
-# Blog Posts
+# News
 
 {% assign posts = site.posts %}
 {% include blog-list.html %}
