@@ -1,6 +1,6 @@
 ---
 layout: home
-top_image: /assets/images/join-the-rebellion.jpg
+top_image: /assets/images/join-the-rebellion.png
 jump:
   text: Find out more
   target: about
@@ -10,4 +10,5 @@ end_quote: You have to act as if it were possible to radically transform the wor
 
 # About
 
-At Extinction Rebellion Youth (XRY), we see ourselves as only one part of the larger climate justice youth movement and the movement of young people trying to create change across all different issues. This is our purpose and we want to work collaboratively with the larger movement to bring our vision to flourish.
+As young people, we have grown up with the climate and ecological emergency, knowing that our futures will be dominated by the current inaction. It is no longer a question of if this is happening, no longer a question of political will - either we create radical change now or things will only get worse.
+

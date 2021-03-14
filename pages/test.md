@@ -1,7 +1,0 @@
----
-
-layout: page
-
----
-
-# A page

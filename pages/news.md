@@ -7,5 +7,4 @@ order: 3
 
 # News
 
-{% assign posts = site.posts %}
-{% include blog-list.html %}
+{% assign posts = site.posts %} {% include blog-list.html %}

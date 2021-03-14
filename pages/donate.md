@@ -7,6 +7,4 @@ main_nav_exclude: true
 
 # Donate
 
-Configure the `donate` value in your `_config.yml` file to point to either a internal or external page for soliciting donations for your group. Once this is set, the "donate" button will appear in the theme.
-
-If you are using the Extinction Symbol, bear in mind the licensing restrictions for commercial use. You can find out more about the extinction symbol license at <a href="https://www.extinctionsymbol.info">extinctionsymbol.info</a>.
+Any money donated goes straight towards helping the movement and is distributed across the country to allow young people the resources needed to bring about change to our futures - if you have the resources to be able to spare a donation, we are always incredibly grateful
