@@ -4,3 +4,6 @@
 .jekyll-cache
 _site
 Gemfile.lock
+/pages
+/_posts
+index.md
