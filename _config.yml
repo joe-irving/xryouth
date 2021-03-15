@@ -29,7 +29,7 @@ instagram: https://www.instagram.com/xryouth/
 donate: /donate/
 join_us: /join-us/
 # $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple, $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
-brand_color: $xr-pink
+brand_color: $xr-yellow
 accent_color: $xr-dark-blue
 invert_brand_text: false
 invert_accent_text: true
