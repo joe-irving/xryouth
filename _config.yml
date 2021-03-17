@@ -40,3 +40,7 @@ theme_medium: 570
 theme_large: 770
 #main_nav_exclude_layouts: # Array of layout names to exclude from the main nav.
 #header_pages: Array of pages (filepaths) to include in header nav
+
+exclude:
+  - README.md
+  - **/README.md
