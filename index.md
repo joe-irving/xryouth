@@ -1,6 +1,7 @@
 ---
 layout: home
 top_image: /assets/images/join-the-rebellion.png
+main_nav_exclude: true
 jump:
   text: Find out more
   target: about
