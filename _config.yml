@@ -43,4 +43,5 @@ theme_large: 770
 
 exclude:
   - README.md
-  - **/README.md
+  - pages/README.md
+  - _posts/README.md
