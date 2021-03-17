@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-17T00:12:45+00:00</updated><id>/feed.xml</id><title type="html">XR Youth</title><subtitle>The Youth Voice of the Rebellion against Extinction</subtitle><entry><title type="html">Example Post</title><link href="/example-post/" rel="alternate" type="text/html" title="Example Post" /><published>2021-03-13T00:00:00+00:00</published><updated>2021-03-13T00:00:00+00:00</updated><id>/example-post</id><content type="html" xml:base="/example-post/">&lt;p&gt;This is where the writing happens. I would write wonderful prose but tbh I have no idea how to do that. So instead a few examples of text formatting…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A series&lt;/li&gt;
+  &lt;li&gt;of bullet&lt;/li&gt;
+  &lt;li&gt;points.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A block quote&lt;/p&gt;
+
+  &lt;p&gt;that goes over&lt;/p&gt;
+
+  &lt;p&gt;a few paragraphs&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;A very cool person, 2021&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;an ordered -&lt;/li&gt;
+  &lt;li&gt;or numbered -&lt;/li&gt;
+  &lt;li&gt;list!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A TODO list:&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Ignore us&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Laugh at us&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Fight us&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Win&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
+
+&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
+
+&lt;h5 id=&quot;heading-5&quot;&gt;heading 5&lt;/h5&gt;
+
+&lt;h6 id=&quot;heading-6&quot;&gt;heading 6&lt;/h6&gt;
+
+&lt;p&gt;adding a test paragraph!&lt;/p&gt;</content><author><name></name></author><summary type="html">An example expert of the post. This will show up in the post feed</summary></entry></feed>

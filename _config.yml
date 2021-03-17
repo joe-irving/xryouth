@@ -4,6 +4,7 @@ description: >-
   The Youth Voice of the Rebellion against Extinction
 baseurl: ""
 url: ""
+destination: ./docs
 
 # Build settings
 markdown: kramdown
