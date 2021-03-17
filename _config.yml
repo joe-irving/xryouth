@@ -16,7 +16,7 @@ plugins:
 sass:
   sass_dir: _sass
 
-permalink: /:title/
+permalink: /:short_year/:short_month/:title/
 
 # Rebellion Config
 # logo: /assets/images/logo.jpeg
@@ -28,7 +28,8 @@ instagram: https://www.instagram.com/xryouth/
 # copyright_notice: Add an additional copyright notice here.
 donate: /donate/
 join_us: /join-us/
-# $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple, $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
+# $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple,
+# $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
 brand_color: $xr-yellow
 accent_color: $xr-dark-blue
 invert_brand_text: false
