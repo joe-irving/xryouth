@@ -2,7 +2,7 @@
 layout: page
 title: Join Us
 permalink: /join-us/
-top_image: /assets/images/join-us.jpg
+# top_image: /assets/images/join-us.jpg
 order: 1
 ---
 
