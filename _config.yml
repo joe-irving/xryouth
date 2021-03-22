@@ -16,7 +16,7 @@ plugins:
 sass:
   sass_dir: _sass
 
-permalink: /:short_year/:short_month/:title/
+permalink: /:year/:short_month/:title/
 
 # Rebellion Config
 # logo: /assets/images/logo.jpeg
