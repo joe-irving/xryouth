@@ -28,7 +28,7 @@ ul, ol { margin-left: 10px; }
 li > ul, li > ol { margin-bottom: 0; }
 
 ol li { list-style-type: none; counter-increment: list; position: relative; margin-left: 1.2em; }
-ol li:before { font-weight: bold; content: counter(list) "."; position: absolute; left: -2.5em; width: 2em; text-align: right; color: #ffc113; }
+ol li:before { font-weight: bold; content: counter(list) "."; position: absolute; left: -2.5em; width: 2em; text-align: right; color: #3f61b6; }
 ol .li01:before { content: "1."; }
 ol .li02:before { content: "2."; }
 ol .li03:before { content: "3."; }
@@ -62,17 +62,17 @@ ol .li30:before { content: "30."; }
 ol .li31:before { content: "31."; }
 
 ul li { color: #111; list-style-type: none; }
-ul li:before { content: '\2022 '; color: #ffc113; padding-right: 0.5em; }
+ul li:before { content: '\2022 '; color: #3f61b6; padding-right: 0.5em; }
 
 /**
 * Links
 */
-a { color: #ffc113; text-decoration: none; font-weight: bold; }
-a:visited { color: #c69200; }
+a { color: #3f61b6; text-decoration: none; font-weight: bold; }
+a:visited { color: #2b437d; }
 a:hover { color: #111; text-decoration: underline; }
 
 /** Blockquotes */
-blockquote { color: #424242; border-left: 4px solid #ffc113; padding-left: 10px; font-size: 18pt; letter-spacing: -1px; font-style: italic; }
+blockquote { color: #424242; border-left: 4px solid #3f61b6; padding-left: 10px; font-size: 18pt; letter-spacing: -1px; font-style: italic; }
 blockquote > :last-child { margin-bottom: 0; }
 
 /** Code formatting */
@@ -114,7 +114,7 @@ table caption { font-size: 14pt; caption-side: bottom; }
 .Rebellion-Header .social-links a svg path, .Rebellion-Header .social-links a svg .st0 { fill: #eeeeee; }
 .Rebellion-Header .site-title { font-family: "FucXed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 26pt; transition: 0.1s; height: 100%; display: flex; flex-direction: column; justify-content: center; line-height: 1.2; }
 .Rebellion-Header .site-title, .Rebellion-Header .site-title:visited { color: #111; }
-.Rebellion-Header .site-title:hover { text-decoration: none; border-bottom: 3px solid #3f61b6; color: #fdfdfd; }
+.Rebellion-Header .site-title:hover { text-decoration: none; border-bottom: 3px solid red; color: #fdfdfd; }
 .Rebellion-Header .site-title img { max-height: 56px; box-sizing: border-box; padding: 10px 0; }
 @media screen and (min-width: 425px) { .Rebellion-Header .site-title img { max-height: 72px; } }
 .Rebellion-Header .site-title .logo-square { display: none; max-width: 56px; max-height: 56px; }
@@ -124,26 +124,26 @@ table caption { font-size: 14pt; caption-side: bottom; }
   .Rebellion-Header .centralPadding { min-width: 0; }
   .Rebellion-Header .site-title span { display: none; } }
 @media screen and (max-width: 140px) { .Rebellion-Header .site-title .logo-square { display: none; } }
-.Rebellion-Header .desktop { background-color: #ffc113; position: relative; display: flex; flex-direction: row; flex-wrap: nowrap; justify-items: space-between; align-items: center; min-height: 56px; height: 100%; display: none; }
+.Rebellion-Header .desktop { background-color: #3f61b6; position: relative; display: flex; flex-direction: row; flex-wrap: nowrap; justify-items: space-between; align-items: center; min-height: 56px; height: 100%; display: none; }
 @media screen and (min-width: 425px) { .Rebellion-Header .desktop { min-height: 72px; } }
 .Rebellion-Header .desktop .Rebellion-Button { display: flex; flex-direction: column; justify-content: center; align-self: center; font-size: 15px; height: 42px; padding: 13px 16px; box-sizing: border-box; }
 .Rebellion-Header .desktop .withinPadding { flex-basis: 40px; flex-shrink: 10000; min-width: 15px; }
 .Rebellion-Header .desktop .page-link { color: #111; line-height: 1.5; font-family: "FucXed", "Helvetica Neue", Helvetica, Arial, sans-serif; transition: 0.1s; line-height: 1; flex-shrink: 0.01; height: 100%; display: flex; flex-direction: column; justify-content: center; text-align: center; }
-.Rebellion-Header .desktop .page-link:hover { text-decoration: none; border-bottom: 4px solid #3f61b6; color: #fdfdfd; }
+.Rebellion-Header .desktop .page-link:hover { text-decoration: none; border-bottom: 4px solid red; color: #fdfdfd; }
 .Rebellion-Header .desktop .social-links-padding { flex-basis: 0; flex-shrink: 10000; min-width: 0; }
 @media screen and (min-width: 770px) { .Rebellion-Header .desktop .social-links-padding { flex-basis: 40px; flex-shrink: 10000; min-width: 15px; } }
 .Rebellion-Header .desktop .social-links { align-items: center; justify-items: center; display: none; }
 .Rebellion-Header .desktop .social-links svg { width: 32px; height: 32px; margin-right: 5px; }
 @media screen and (min-width: 770px) { .Rebellion-Header .desktop .social-links { display: flex; } }
 @media screen and (min-width: 570px) { .Rebellion-Header .desktop { display: flex; } }
-.Rebellion-Header .mobile { background-color: #ffc113; display: flex; flex-direction: row; flex-wrap: nowrap; justify-items: space-between; align-items: center; min-height: 56px; height: 100%; }
+.Rebellion-Header .mobile { background-color: #3f61b6; display: flex; flex-direction: row; flex-wrap: nowrap; justify-items: space-between; align-items: center; min-height: 56px; height: 100%; }
 @media screen and (min-width: 425px) { .Rebellion-Header .mobile { min-height: 72px; } }
 .Rebellion-Header .mobile .nav-trigger { display: none; }
 .Rebellion-Header .mobile .site-title { order: 2; }
 .Rebellion-Header .mobile > .Rebellion-Button { position: relative; top: -1px; order: 4; margin-right: 16px; font-size: 15px; line-height: 1; height: 42px; padding: 13px 16px; box-sizing: border-box; display: none; }
 @media screen and (min-width: 425px) { .Rebellion-Header .mobile > .Rebellion-Button { display: inline-block; } }
-.Rebellion-Header .mobile .menu-icon { line-height: 0; width: 18px; height: 15px; position: relative; left: 0; top: 0; transition: 0.3s; padding: 14px; border-radius: 5px; background-color: #3f61b6; }
-.Rebellion-Header .mobile .menu-icon:hover { background-color: #2b437d; }
+.Rebellion-Header .mobile .menu-icon { line-height: 0; width: 18px; height: 15px; position: relative; left: 0; top: 0; transition: 0.3s; padding: 14px; border-radius: 5px; background-color: red; }
+.Rebellion-Header .mobile .menu-icon:hover { background-color: #b30000; }
 .Rebellion-Header .mobile .menu-icon > svg path { fill: #fdfdfd; }
 .Rebellion-Header .mobile .close-menu, .Rebellion-Header .mobile .open-menu { width: 46px; height: 46px; align-self: center; cursor: pointer; order: 4; }
 .Rebellion-Header .mobile .centralPadding { order: 3; }
@@ -162,12 +162,12 @@ table caption { font-size: 14pt; caption-side: bottom; }
 .Rebellion-Header .mobile input:checked ~ .close-menu { display: block; }
 .Rebellion-Header .mobile .mobile-drawer-container { transition: right 0.3s ease-in-out; box-shadow: -1px 0 10px #222; position: fixed; display: flex; top: 0; bottom: 0; right: 0; z-index: 1; min-width: 240px; max-width: 400px; width: 85%; }
 @media screen and (max-width: 250px) { .Rebellion-Header .mobile .mobile-drawer-container { min-width: unset; width: 100%; } }
-.Rebellion-Header .mobile .mobile-drawer-container .mobile-drawer { background-color: #ffc113; width: 100%; position: relative; padding-top: 56px; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; align-content: space-around; }
+.Rebellion-Header .mobile .mobile-drawer-container .mobile-drawer { background-color: #3f61b6; width: 100%; position: relative; padding-top: 56px; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; align-content: space-around; }
 @media screen and (min-width: 425px) { .Rebellion-Header .mobile .mobile-drawer-container .mobile-drawer { padding-top: 72px; } }
 .Rebellion-Header .mobile .mobile-drawer-container .mobile-drawer > a { align-self: center; }
 .Rebellion-Header .mobile .mobile-drawer-container .mobile-drawer .mobile-nav { display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; align-items: stretch; align-content: space-around; }
 .Rebellion-Header .mobile .mobile-drawer-container .mobile-drawer .mobile-nav .page-link { border-top: 1px solid #111; color: #111; line-height: 1.5; font-family: "FucXed", "Helvetica Neue", Helvetica, Arial, sans-serif; padding: 0.5rem; padding-left: 1.5rem; }
-.Rebellion-Header .mobile .mobile-drawer-container .mobile-drawer .mobile-nav .page-link:hover { text-decoration: none; border-bottom: 1px solid #3f61b6; color: #fdfdfd; }
+.Rebellion-Header .mobile .mobile-drawer-container .mobile-drawer .mobile-nav .page-link:hover { text-decoration: none; border-bottom: 1px solid red; color: #fdfdfd; }
 .Rebellion-Header .mobile .mobile-drawer-container .mobile-drawer .mobile-nav .page-link:hover + .page-link { border-top: none; }
 .Rebellion-Header .mobile input:checked ~ .mobile-drawer-container { right: 0; }
 @media screen and (min-width: 570px) { .Rebellion-Header .mobile input:checked ~ .mobile-drawer-container { display: none; } }
@@ -178,13 +178,13 @@ table caption { font-size: 14pt; caption-side: bottom; }
 
 .Rebellion-Footer { background-color: #111; color: #fdfdfd; padding: 60px 0 20px 0; font-size: 14pt; }
 .Rebellion-Footer a { color: white; text-decoration: underline; font-weight: normal; }
-.Rebellion-Footer a:hover { color: #ffdc79; text-decoration: none; }
+.Rebellion-Footer a:hover { color: #869dd5; text-decoration: none; }
 .Rebellion-Footer .logo-line { position: relative; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; }
 .Rebellion-Footer .logo-line .site-title { flex: 1 0 auto; }
 .Rebellion-Footer .logo-line .main-logo { height: 46px; max-width: 161px; padding: 10px 0; }
 .Rebellion-Footer .logo-line .social-links a { text-decoration: none; }
 .Rebellion-Footer .logo-line .social-links a svg { transition: 0.2s; fill: #fdfdfd; height: 38px; }
-.Rebellion-Footer .logo-line .social-links a svg:hover { fill: #ffc113; }
+.Rebellion-Footer .logo-line .social-links a svg:hover { fill: #3f61b6; }
 .Rebellion-Footer .logo-line .social-links a svg path, .Rebellion-Footer .logo-line .social-links a svg .st0 { fill: #111; }
 @media screen and (max-width: 200px) { .Rebellion-Footer .logo-line .main-logo { display: none; }
   .Rebellion-Footer .logo-line .logo-square { display: block; }
@@ -213,11 +213,11 @@ table caption { font-size: 14pt; caption-side: bottom; }
 
 .Rebellion-Flex-Line { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly; }
 
-.Rebellion-Button { display: inline-block; background-color: #3f61b6; color: #fdfdfd; padding: 0.5em 1em; border-radius: 5px; font-family: "FucXed", "Helvetica Neue", Helvetica, Arial, sans-serif; transition: background-color 0.3s  ease-in-out; font-weight: normal; }
-.Rebellion-Button:hover { text-decoration: none; background-color: #2b437d; }
+.Rebellion-Button { display: inline-block; background-color: red; color: #fdfdfd; padding: 0.5em 1em; border-radius: 5px; font-family: "FucXed", "Helvetica Neue", Helvetica, Arial, sans-serif; transition: background-color 0.3s  ease-in-out; font-weight: normal; }
+.Rebellion-Button:hover { text-decoration: none; background-color: #b30000; }
 .Rebellion-Button:visited { color: #fdfdfd; }
 
-.Rebellion-PullQuote { background-color: #ffc113; color: #111; font-family: "FucXed", "Helvetica Neue", Helvetica, Arial, sans-serif; text-align: center; padding: 130px 0 100px 0; }
+.Rebellion-PullQuote { background-color: #3f61b6; color: #111; font-family: "FucXed", "Helvetica Neue", Helvetica, Arial, sans-serif; text-align: center; padding: 130px 0 100px 0; }
 .Rebellion-PullQuote h1 { text-align: left; margin: 1em 0; font-size: 20pt; }
 @media screen and (min-width: 400px) { .Rebellion-PullQuote h1 { font-size: 24pt; } }
 @media screen and (min-width: 800px) { .Rebellion-PullQuote h1 { font-size: 32pt; } }
