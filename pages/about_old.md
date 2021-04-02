@@ -2,7 +2,7 @@
 layout: page
 permalink: /about-old/
 title: About
-main_nav_exclude: false
+main_nav_exclude: true
 order: 2
 ---
 
@@ -39,7 +39,7 @@ Working with groups across the world as equals and being guided by their wisdom 
 
 As a collection of local groups across the UK, we stand shoulder to shoulder with those across the world being affected already - acting locally to have an effect globally. As a country, we're one of the biggest environmental destroyers, both in the greenhouse gasses we've released and the destruction we've introduced to the rest of the world though colonialism. We have a duty to rewrite that relationship and move away from dominating other countries, both politically and economically. As such, we hold solidarity with those fighting to protect their lives across the globe, not as a superior, but an equal. (sounds a bit kumbiya (not how you spell it) also need to nudge international solidarity again they were meant to write this)
 
-if you are interested in joining the Youth International Solidarity Working group, or are a group outside of the UK who would like to work with them - you can get in touch here 
+if you are interested in joining the Youth International Solidarity Working group, or are a group outside of the UK who would like to work with them - you can get in touch here
 
 ## Decentralised: Local and Global
 
