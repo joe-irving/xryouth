@@ -4,10 +4,10 @@ description: >-
   The Youth Voice of the Rebellion against Extinction
 baseurl: ""
 url: ""
-destination: ./docs
+# destination: ./docs
 
 # Build settings
-markdown: kramdown
+markdown: kramdown  
 theme: jekyll-rebellion
 
 plugins:
@@ -17,7 +17,7 @@ plugins:
 sass:
   sass_dir: _sass
 
-permalink: /:title/
+permalink: /:categories/:title/
 
 # Rebellion Config
 # logo: /assets/images/logo.jpeg
