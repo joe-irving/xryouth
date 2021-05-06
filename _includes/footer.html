@@ -8,7 +8,7 @@
                     <span>{{ site.title | escape }}</span>
                 {% endif %}
             </a>
-            
+
             {% include social-links.html %}
         </div>
         <nav>
@@ -28,7 +28,6 @@
                         {%- endif -%}
                     {% endunless %}
                 {%- endfor -%}
-
             </div>
             <div class="col">
                     {% for page in site.footer_include_pages %}
@@ -49,5 +48,8 @@
         {% if site.copyright_notice %}
             {{ site.copyright_notice }}
         {% endif %}
+        </p>
+        <p>
+          <a class="page-link" href="/structure.html">Site Map</a>
         </p>
 </footer>

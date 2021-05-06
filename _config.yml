@@ -4,9 +4,10 @@ description: >-
   The Youth Voice of the Rebellion against Extinction
 baseurl: ""
 url: ""
+# destination: ./docs
 
 # Build settings
-markdown: kramdown
+markdown: kramdown  
 theme: jekyll-rebellion
 
 plugins:
@@ -16,7 +17,8 @@ plugins:
 sass:
   sass_dir: _sass
 
-permalink: /:year/:short_month/:title/
+
+permalink: /:categories/:title/
 
 # Rebellion Config
 # logo: /assets/images/logo.jpeg
@@ -28,10 +30,9 @@ instagram: https://www.instagram.com/xryouth/
 # copyright_notice: Add an additional copyright notice here.
 donate: /donate/
 join_us: /join-us/
-# $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple,
-# $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
-brand_color: $xr-yellow
-accent_color: $xr-dark-blue
+# $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple, $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
+brand_color: $xr-dark-blue
+accent_color: red
 invert_brand_text: false
 invert_accent_text: true
 theme_tiny: 250
