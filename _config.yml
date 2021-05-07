@@ -7,16 +7,44 @@ url: ""
 # destination: ./docs
 
 # Build settings
-markdown: kramdown  
+markdown: kramdown
 theme: jekyll-rebellion
 
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-get-json
+ - jekyll-datapage-generator
+ # - jekyll-csv
+
+csv:
+  faqs:
+    source: "https://docs.google.com/spreadsheets/d/1Z7egtzdWckwFAGrojj79Sys_TSVwwxEFM-JZQCXYG2M/gviz/tq?tqx=out:csv&sheet=Website"
 
 sass:
   sass_dir: _sass
 
+jekyll_get_json:
+  - data: insta
+    json: 'https://profilepageimages.usecue.com/images/xryouth_uk/images.json'
+    # collection: true
+    # title: id
+
+collections:
+  faqs:
+    output: true
+
+page_gen-dirs: false
+
+page_gen:
+  - data: 'insta'
+    template: 'insta'
+    # dir: "insta"
+    # name_expr: 'Date.parse(record["timestamp"]).strftime("%Y-%m-%d")+"-"+record["caption"].slice(0..20)'
+    name_expr: 'Date.parse(record["timestamp"]).strftime("%Y-%m-%d")+record["caption"].slice(0..5)'
+    title_expr: 'record["caption"].slice(0..50)+"..."'
+    page_data_prefix: ig
+    extension: md
 
 permalink: /:categories/:title/
 
@@ -25,8 +53,8 @@ permalink: /:categories/:title/
 logo_square: /assets/images/logo.jpeg
 #logo_light: /assets/logo-white.svg
 facebook: https://www.facebook.com/XRYouth
-twitter: https://twitter.com/NetworkXr
-instagram: https://www.instagram.com/xryouth/
+twitter: https://twitter.com/xryouthuk
+instagram: https://www.instagram.com/xryouth_uk/
 # copyright_notice: Add an additional copyright notice here.
 donate: /donate/
 join_us: /join-us/
@@ -39,8 +67,8 @@ theme_tiny: 250
 theme_small: 425
 theme_medium: 570
 theme_large: 770
-#main_nav_exclude_layouts: # Array of layout names to exclude from the main nav.
-#header_pages: Array of pages (filepaths) to include in header nav
+# main_nav_exclude_layouts: insta
+header_pages: #Array of pages (filepaths) to include in header nav
 
 exclude:
   - README.md

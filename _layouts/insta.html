@@ -1,0 +1,12 @@
+---
+layout: post
+main_nav_exclude: true
+---
+{% assign page.date = page.ig.timestamp %}
+{% assign page.author = "XR Youth Instagram" %}
+{% assign page.categories = "Instagram" %}
+
+<a href="{{ page.ig.permalink }}">
+  <img src="{{ page.ig.image }}" alt="">
+</a>
+{{ page.ig.caption | markdownify }}
