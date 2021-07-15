@@ -6,7 +6,9 @@ permalink: /join-us/
 order: 1
 ---
 
-# It’s not about the climate - A Perspective on the Youth Climate Movement 
+{% include sign-up-form.html %}
+
+# It’s not about the climate - A Perspective on the Youth Climate Movement
 
 We are at the beginning of the most important decade in history, the environmental movement made strives in 2019 but there is so much left to do and so much at stake. This year has already been coined the year of change; the next rebellion, COP26, and COY16 will play an instrumental part in making this happen. We believe young people will be key players in bringing about the change.
 
