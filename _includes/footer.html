@@ -46,10 +46,7 @@
     </div>
         <p>This site uses the <a href="https://github.com/davidgundry/jekyll-rebellion/">Rebellion</a> theme for Jekyll.
         {% if site.copyright_notice %}
-            {{ site.copyright_notice }}
+            {{ site.copyright_notice | markdownify }}
         {% endif %}
-        </p>
-        <p>
-          <a class="page-link" href="/structure.html">Site Map</a>
         </p>
 </footer>
