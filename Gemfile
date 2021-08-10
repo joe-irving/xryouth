@@ -5,8 +5,8 @@ source "https://rubygems.org"
 gem "jekyll"
 
 # Theme
-# gem "jekyll-rebellion", git: "https://github.com/joe-irving/jekyll-rebellion.git"
-gem "jekyll-rebellion", path: "/home/joe/Documents/Activism/XR/jekyll-rebellion"
+gem "jekyll-rebellion", git: "https://github.com/joe-irving/jekyll-rebellion.git"
+# gem "jekyll-rebellion", path: "/home/joe/Documents/Activism/XR/jekyll-rebellion"
 
 gem "kramdown-parser-gfm"
 
