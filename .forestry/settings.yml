@@ -5,18 +5,17 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: config.yml
-  label: site config (be careful!)
-  match: "**/*"
+  path: index.md
+  label: Homepage
 - type: jekyll-pages
   label: Pages
   create: all
-- type: document
-  path: index.md
-  label: Homepage
 - type: jekyll-posts
   label: Posts
   create: all
+- type: document
+  path: config.yml
+  label: site config (be careful!)
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
