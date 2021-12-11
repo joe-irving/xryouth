@@ -7,4 +7,10 @@ order: 4
 
 # Frequently asked questions
 
-{% assign posts = site.faqs %}{% include blog-list.html date=false %}
+{% for q in site.data.faqs %}
+
+## {{ q.title }}
+
+{{ q.description }}
+
+{% endfor %}

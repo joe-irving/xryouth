@@ -17,9 +17,9 @@ plugins:
  - jekyll-datapage-generator
  # - jekyll-csv
 
-csv:
-  faqs:
-    source: "https://docs.google.com/spreadsheets/d/1Z7egtzdWckwFAGrojj79Sys_TSVwwxEFM-JZQCXYG2M/gviz/tq?tqx=out:csv&sheet=Website"
+# csv:
+#   faqs:
+#     source: "https://docs.google.com/spreadsheets/d/1Z7egtzdWckwFAGrojj79Sys_TSVwwxEFM-JZQCXYG2M/gviz/tq?tqx=out:csv&sheet=Website"
 
 sass:
   sass_dir: _sass
@@ -45,6 +45,23 @@ page_gen:
     title_expr: 'record["caption"].slice(0..50)+"..."'
     page_data_prefix: ig
     extension: md
+
+airtable:
+  faqs:
+    app: appOvsegTEAmboAdW
+    table: tblQvpIFXBeC1y6sJ
+    view: viwpJfiohAaboMXJv
+  posts:
+    table: tblJ2kxufJS2qGqFy
+    view: viwPOgZdyh85akpF8
+    collection: true
+  authors:
+    table: tbledFP3NE9uuSKzf
+    view: viwGfu3dM5Lp6Gwh7
+  demands:
+    table: tblppwvAzVIfty4kI
+    view: viwDCKTvKt7dZROcr
+
 
 permalink: /:categories/:title/
 

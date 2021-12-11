@@ -1,18 +1,14 @@
 ---
-
 layout: page
-
 permalink: /about/
-
 title: About
-
 order: 2
-
-\#top\_image: /assets/images/default\.png
-
+top_image: /assets/images/default.png
+excerpt: ''
+top_quote: ''
 ---
 
-# Who are we? 
+# Who are we?
 
 XR Youth began at the end of Feb 2019, out of a need to create a platform within XR and the world, for the young person’s voice\. It had become apparent that for many in XR, taking these risks to liberty were energised by the passion to ‘do it for the children’\. The fact that seemed to not be getting attention was that the young people in XR that people were fighting for have a voice of their own\. Something that is important that we understand there are young people within XR, but XR Youth is to advocate youth voice\. If you are in XR Youth you are not just in it because you are young and in XR but because you see and know the integral part that youth play in bringing around change\. XR Youth consists of those born after 1990 \- a generation that has never experienced a stable climate and who’s lives will be wholly affected by the climate and ecological crisis\.
 
@@ -57,4 +53,3 @@ as well as local groups, there is a national support team, which helps support r
 Anyone is allowed to use graphics produced by XR Youth for the purposes of environment protecting without the need to ask for permission \- feel free to use any of the graphics here in a non\-commercial way
 
 We also have an amazing dedicated graphics team who are more than happy to create graphics for any actions you may be doing, simply get in touch with them here and let them know what you want creating\.
-

@@ -15,6 +15,7 @@ group :jekyll_plugins do
   # gem 'jekyll-linkpreview'
   # gem 'jekyll-twitter-plugin'
   # gem "jekyll-youtube"
+  gem "jekyll-airtable-import", git: "https://github.com/tippingpointuk/jekyll-airtable-import"
   gem "jekyll-sitemap"
   gem "jekyll-get-json"#, path: "/home/joe/Ruby/jekyll-get-json"
   gem "jekyll-datapage-generator"
