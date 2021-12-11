@@ -1,0 +1,28 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: title
+  label: title
+- type: number
+  name: order
+  label: order
+- type: file
+  name: top_image
+  label: top_image
+- type: text
+  name: excerpt
+  label: excerpt
+- type: text
+  name: top_quote
+  label: top_quote
+- type: boolean
+  name: main_nav_exclude
+  label: main_nav_exclude
