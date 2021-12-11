@@ -14,7 +14,7 @@ sections:
   label: Posts
   create: all
 - type: document
-  path: config.yml
+  path: _config.yml
   label: site config (be careful!)
 upload_dir: assets/images
 public_path: "/assets/images"
