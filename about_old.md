@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /about-old/
-title: About
+permalink: "/about-old/"
+title: About OLD
 main_nav_exclude: true
-order: 2
----
+order: "2"
 
+---
 # Who are we?
 
 XR Youth began at the end of Feb 2019, out of a need to create a platform within XR and the world, for the young person’s voice.
