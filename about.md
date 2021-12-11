@@ -6,6 +6,7 @@ order: 2
 top_image: /assets/images/default.png
 excerpt: ''
 top_quote: ''
+main_nav_exclude: false
 ---
 
 # Who are we?
