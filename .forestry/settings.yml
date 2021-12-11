@@ -12,11 +12,6 @@ sections:
 - type: document
   path: index.md
   label: Homepage
-- type: directory
-  path: _faqs
-  label: Faqs
-  create: all
-  match: "**/*"
 - type: jekyll-posts
   label: Posts
   create: all
