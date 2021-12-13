@@ -1,51 +1,32 @@
+---
 title: XR Youth
 email: xryouth@gmail.com
-description: >-
-  The Youth Voice of the Rebellion against Extinction
-baseurl: ""
-url: ""
-# destination: ./docs
-
-# Build settings
+description: The Youth Voice of the Rebellion
+baseurl: ''
+url: ''
 markdown: kramdown
 theme: jekyll-rebellion
-
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-get-json
- - jekyll-datapage-generator
- # - jekyll-csv
-
-# csv:
-#   faqs:
-#     source: "https://docs.google.com/spreadsheets/d/1Z7egtzdWckwFAGrojj79Sys_TSVwwxEFM-JZQCXYG2M/gviz/tq?tqx=out:csv&sheet=Website"
-
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-get-json
+- jekyll-datapage-generator
 sass:
   sass_dir: _sass
-
 jekyll_get_json:
-  - data: insta
-    json: 'https://profilepageimages.usecue.com/images/xryouth_uk/images.json'
-    # collection: true
-    # title: id
-
+- data: insta
+  json: https://profilepageimages.usecue.com/images/xryouth_uk/images.json
 collections:
   faqs:
     output: true
-
 page_gen-dirs: false
-
 page_gen:
-  - data: 'insta'
-    template: 'insta'
-    # dir: "insta"
-    # name_expr: 'Date.parse(record["timestamp"]).strftime("%Y-%m-%d")+"-"+record["caption"].slice(0..20)'
-    name_expr: 'Date.parse(record["timestamp"]).strftime("%Y-%m-%d")+record["caption"].slice(0..5)'
-    title_expr: 'record["caption"].slice(0..50)+"..."'
-    page_data_prefix: ig
-    extension: md
-
+- data: insta
+  template: insta
+  name_expr: Date.parse(record["timestamp"]).strftime("%Y-%m-%d")+record["caption"].slice(0..5)
+  title_expr: record["caption"].slice(0..50)+"..."
+  page_data_prefix: ig
+  extension: md
 airtable:
   faqs:
     app: appOvsegTEAmboAdW
@@ -61,33 +42,24 @@ airtable:
   demands:
     table: tblppwvAzVIfty4kI
     view: viwDCKTvKt7dZROcr
-
-
-permalink: /:categories/:title/
-
-# Rebellion Config
-# logo: /assets/images/logo.jpeg
-logo_square: /assets/images/logo.jpeg
-#logo_light: /assets/logo-white.svg
+permalink: "/:categories/:title/"
+logo_square: "/assets/images/xr-youth-logo.png"
 facebook: https://www.facebook.com/XRYouth
 twitter: https://twitter.com/xryouthuk
 instagram: https://www.instagram.com/xryouth_uk/
 copyright_notice: Made with love from [Websites for Dissent](https://joe.irving.me.uk).
 donate: https://www.chuffed.org/project/xr-youth-uk
-join_us: /join-us/
-# $xr-green, $xr-yellow, $xr-light-blue, $xr-pink, $xr-purple, $xr-dark-blue $xr-light-blue, xr-light-green, $xr-pastel-yellow
-brand_color: $xr-dark-blue
+join_us: "/join-us/"
+brand_color: "$xr-dark-blue"
 accent_color: red
 invert_brand_text: false
 invert_accent_text: true
-theme_tiny: 250
-theme_small: 425
-theme_medium: 570
-theme_large: 770
-# main_nav_exclude_layouts: insta
-header_pages: #Array of pages (filepaths) to include in header nav
-
+theme_tiny: "250"
+theme_small: "425"
+theme_medium: "570"
+theme_large: "770"
+header_pages: 
 exclude:
-  - README.md
-  - pages/README.md
-  - _posts/README.md
+- README.md
+- pages/README.md
+- _posts/README.md
