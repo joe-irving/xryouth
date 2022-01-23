@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Join Us
-permalink: /join-us/
-# top_image: /assets/images/join-us.jpg
+permalink: "/join-us/"
 order: 1
----
 
-{% include sign-up-form.html %}
+---
+<iframe src="[https://www.google.com/maps/d/u/2/embed?mid=1U9SNdNc-F_izWrmS-F9I_8pEsRuCzRqJ&ehbc=2E312F](https://www.google.com/maps/d/u/2/embed?mid=1U9SNdNc-F_izWrmS-F9I_8pEsRuCzRqJ&ehbc=2E312F "https://www.google.com/maps/d/u/2/embed?mid=1U9SNdNc-F_izWrmS-F9I_8pEsRuCzRqJ&ehbc=2E312F")" width="640" height="480"></iframe>
 
 # It’s not about the climate - A Perspective on the Youth Climate Movement
 
