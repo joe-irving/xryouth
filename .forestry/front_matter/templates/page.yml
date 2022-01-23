@@ -28,3 +28,5 @@ fields:
 - type: boolean
   name: main_nav_exclude
   label: main_nav_exclude
+pages:
+- join-us.html
