@@ -11,9 +11,6 @@ fields:
 - type: text
   name: permalink
   label: permalink
-- type: text
-  name: order
-  label: order
 - name: text
   type: textarea
   default: ''
