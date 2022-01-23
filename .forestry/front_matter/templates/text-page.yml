@@ -3,22 +3,10 @@ label: Text Page
 hide_body: false
 fields:
 - type: text
-  name: layout
-  label: layout
-- type: text
   name: title
   label: title
 - type: text
   name: permalink
   label: permalink
-- name: text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Text
 pages:
 - _posts/local-group-map-test-3.html
