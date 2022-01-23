@@ -3,7 +3,6 @@ layout: page
 title: Join Us
 permalink: "/join-us/"
 order: 1
-published: false
 
 ---
     
