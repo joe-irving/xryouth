@@ -23,3 +23,5 @@ fields:
     schema:
       format: markdown
   label: Text
+pages:
+- _posts/local-group-map-test-3.html
