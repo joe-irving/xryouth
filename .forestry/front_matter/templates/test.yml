@@ -16,5 +16,3 @@ fields:
     schema:
       format: markdown
   label: Text
-pages:
-- _posts/test-map.html
