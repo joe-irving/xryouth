@@ -16,19 +16,6 @@ fields:
 - type: number
   name: order
   label: order
-- name: Find_your_local_group
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  description: '&lt;iframe src="<a href="https://www.google.com/maps/d/u/2/embed?mid=1U9SNdNc-F_izWrmS-F9I_8pEsRuCzRqJ&amp;ehbc=2E312F"
-    title="https://www.google.com/maps/d/u/2/embed?mid=1U9SNdNc-F_izWrmS-F9I_8pEsRuCzRqJ&amp;ehbc=2E312F"
-    target="_blank">https://www.google.com/maps/d/u/2/embed?mid=1U9SNdNc-F_izWrmS-F9I_8pEsRuCzRqJ&amp;ehbc=2E312F</a>"
-    width="640" height="480"&gt;&lt;/iframe&gt;'
-  label: Local Group Map
 - type: file
   name: top_image
   label: top_image
