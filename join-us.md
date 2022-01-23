@@ -5,7 +5,7 @@ permalink: "/join-us/"
 order: 2
 
 ---
-    
+    <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1U9SNdNc-F_izWrmS-F9I_8pEsRuCzRqJ&ehbc=2E312F" width="640" height="480"></iframe>
 
 # It’s not about the climate - A Perspective on the Youth Climate Movement
 
